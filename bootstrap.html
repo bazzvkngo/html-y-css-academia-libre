@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+      /* Personalizar el estilo de las columnas */
+      .col-1 {
+        background-color: aquamarine;
+      }
+      .col-2 {
+        background-color: blue;
+      }
+      .col-3 {
+        background-color: green;
+      }
+      .col-4 {
+        background-color: yellow;
+      }
+      .col-5 {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 col-sm-2">
+          <h3>Column 1</h3>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo Electronico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Nunca compartas tu información</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Clikea aqui</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Si a todo</button>
+          </form>
+        </div>
+        <div class="col-2 col-sm-2">Column 2</div>
+        <div class="col-3 col-sm-2">Column 3</div>
+        <div class="col-4 col-sm-2">Column 4</div>
+        <div class="col-5 col-sm-2">Column 5</div>
+      </div>
+    </div>
+  </body>
+</html>
